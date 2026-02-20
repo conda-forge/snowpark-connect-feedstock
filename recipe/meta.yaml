@@ -1,5 +1,5 @@
 {% set name = "snowpark-connect" %}
-{% set version = "1.9.0" %}
+{% set version = "1.14.0" %}
 {% set python_min = "3.10" %}
 {% set python_max = "3.13" %}
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/snowpark_connect-{{ version }}.tar.gz
-  sha256: 10c795c3c34eaa710dd9973591e15d4161bf2e99bb1d3a2a75b2865bd81715a7
+  sha256: e6a61d7f28c8bf59c86f69804d1c20cb4993d6972dea5135416861a54d55c5eb
 
 build:
   noarch: python
