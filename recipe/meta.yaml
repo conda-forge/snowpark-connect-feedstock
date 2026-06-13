@@ -1,11 +1,11 @@
 {% set name = "snowpark-connect" %}
-{% set version = "1.30" %}
+{% set version = "1.30.0" %}
 {% set python_min = "3.10" %}
 {% set python_max = "3.13" %}
 
 package:
   name: {{ name|lower }}
-  version: "{{ version }}"
+  version: {{ version }}
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/snowpark_connect-{{ version }}.tar.gz
