@@ -46,7 +46,6 @@ requirements:
     - gcsfs >=2025.2.0
   run_constrained:
     - jdk4py ==17.0.9.2
-    - snowpark-connect-deps-iceberg ==1.0.1
 
 test:
   imports:
