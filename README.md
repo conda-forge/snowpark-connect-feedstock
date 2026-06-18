@@ -144,5 +144,11 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@sfc-gh-azhan](https://github.com/sfc-gh-azhan/)
+* [@sfc-gh-ckonigsmark](https://github.com/sfc-gh-ckonigsmark/)
 * [@sfc-gh-igarish](https://github.com/sfc-gh-igarish/)
+* [@sfc-gh-kgadomski](https://github.com/sfc-gh-kgadomski/)
+* [@sfc-gh-pwojcik](https://github.com/sfc-gh-pwojcik/)
+* [@sfc-gh-saroskar](https://github.com/sfc-gh-saroskar/)
+* [@sfc-gh-skumbham](https://github.com/sfc-gh-skumbham/)
 
