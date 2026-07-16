@@ -148,6 +148,7 @@ Feedstock Maintainers
 * [@sfc-gh-ckonigsmark](https://github.com/sfc-gh-ckonigsmark/)
 * [@sfc-gh-igarish](https://github.com/sfc-gh-igarish/)
 * [@sfc-gh-kgadomski](https://github.com/sfc-gh-kgadomski/)
+* [@sfc-gh-manowotka](https://github.com/sfc-gh-manowotka/)
 * [@sfc-gh-pwojcik](https://github.com/sfc-gh-pwojcik/)
 * [@sfc-gh-saroskar](https://github.com/sfc-gh-saroskar/)
 * [@sfc-gh-skumbham](https://github.com/sfc-gh-skumbham/)
