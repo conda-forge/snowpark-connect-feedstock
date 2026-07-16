@@ -1,5 +1,5 @@
 {% set name = "snowpark-connect" %}
-{% set version = "1.33.0" %}
+{% set version = "1.35.0" %}
 {% set python_min = "3.10" %}
 {% set python_max = "3.13" %}
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/snowpark_connect-{{ version }}.tar.gz
-  sha256: 199bd1e126261d1bdacdf9a0c78ea5c2512ccf7877ade6a98ac8a63debc46c7e
+  sha256: b5feaca8157fd265c5faabd5db3a1b372d53334723b27350de65b78f9b318344
 
 build:
   noarch: python
@@ -32,12 +32,12 @@ requirements:
     - protobuf >=4.25.3,<6.34
     - s3fs >=2025.3.0
     - snowflake.core >=1.0.5,<2
-    - snowflake-snowpark-python >=1.52.0,<1.53.0
+    - snowflake-snowpark-python >=1.53.0,<1.54.0
     - snowflake-connector-python >=3.18.0
     - sqlglot >=26.3.8
     - aiobotocore >=2.23.0,<4
     - py4j >=0.10.9.7,<0.10.10.0
-    - pandas >=1.0.5
+    - pandas >=1.0.5,<3.0
     - pyarrow >=23.0.1,<25.0.0
     - grpcio >=1.56.0,<=1.78.0
     - grpcio-status >=1.56.0,<=1.78.0
