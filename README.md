@@ -40,31 +40,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `snowpark-connect` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install snowpark-connect
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install snowpark-connect
 ```
 
-It is possible to list all of the versions of `snowpark-connect` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add snowpark-connect
+# for installing globally
+pixi global install snowpark-connect
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `snowpark-connect` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search snowpark-connect --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search snowpark-connect --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search snowpark-connect --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -76,6 +118,8 @@ mamba repoquery whoneeds snowpark-connect --channel conda-forge
 # List dependencies of `snowpark-connect`:
 mamba repoquery depends snowpark-connect --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
@@ -148,6 +192,7 @@ Feedstock Maintainers
 * [@sfc-gh-ckonigsmark](https://github.com/sfc-gh-ckonigsmark/)
 * [@sfc-gh-igarish](https://github.com/sfc-gh-igarish/)
 * [@sfc-gh-kgadomski](https://github.com/sfc-gh-kgadomski/)
+* [@sfc-gh-manowotka](https://github.com/sfc-gh-manowotka/)
 * [@sfc-gh-pwojcik](https://github.com/sfc-gh-pwojcik/)
 * [@sfc-gh-saroskar](https://github.com/sfc-gh-saroskar/)
 * [@sfc-gh-skumbham](https://github.com/sfc-gh-skumbham/)
