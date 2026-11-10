@@ -25,7 +25,7 @@ requirements:
     - python >={{ python_min }},<{{ python_max }}
     - snowpark-connect-deps-1 ==3.56.7
     - snowpark-connect-deps-2 ==3.56.7
-    - certifi >=2025.1.31
+    - certifi >=2026.10.19
     - cloudpickle
     - fsspec
     - jpype1 !=1.7.0,!=1.7.1
